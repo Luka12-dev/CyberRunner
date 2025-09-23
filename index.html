@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyber Runner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-root">
+    <canvas id="game-canvas" width="1024" height="640"></canvas>
+    <div id="ui">
+      <div id="hud">
+        <span id="score">Score: 0</span>
+        <span id="lives">Lives: 3</span>
+        <span id="level">Level: 1</span>
+      </div>
+      <div id="controls">
+        <button id="btn-start">Start / Restart</button>
+        <button id="btn-pause">Pause</button>
+        <label>Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.5"></label>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
