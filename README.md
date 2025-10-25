@@ -3,7 +3,7 @@
 A lightweight browser-based game using **HTML, CSS, JavaScript** for the frontend, with **Python and C/C++** handling optimizations and backend computations. Runs locally in the browser when opening `index.html`.
 
 ## ScreenShot
-![ScreenShot](ScreenShot.png)
+![ScreenShot](ScreenShot1.png)
 
 ## Features
 
@@ -44,4 +44,5 @@ A lightweight browser-based game using **HTML, CSS, JavaScript** for the fronten
 - Add multiplayer support
 - Enhance AI with Python/C++ modules
 - Add sound effects and animations
+
 - Track player scores and achievements
